@@ -1,0 +1,16 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+catboost
+xgboost
+lightgbm
+scipy>=1.13
+joblib>=1.4
+matplotlib
+seaborn
+tqdm
+pyyaml
+openap
+keras==3.3
+tensorflow==2.16
+tabulate

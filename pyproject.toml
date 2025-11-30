@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "prc-2025-likable-ant"
+version = "1.0.0"
+description = "Fuel prediction pipeline using machine learning models"
+authors = ["Your Name"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pandas = ">=2.2"
+numpy = ">=1.26"
+scikit-learn = ">=1.4"
+catboost = "*"
+xgboost = "*"
+lightgbm = "*"
+scipy = ">=1.13"
+joblib = ">=1.4"
+matplotlib = "*"
+seaborn = "*"
+tqdm = "*"
+pyyaml = "*"
+openap = "*"
+keras = "^3.3"
+tensorflow = "^2.16"
+tabulate = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
